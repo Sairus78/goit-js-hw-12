@@ -1,3 +1,4 @@
+// biblio
 import iziToast from 'izitoast';
 import 'izitoast/dist/css/iziToast.min.css';
 
@@ -6,6 +7,8 @@ import 'simplelightbox/dist/simple-lightbox.min.css';
 
 import { search } from './js/pixabay-api';
 import { renderMarkup } from './js/render-functions';
+
+// constants
 
 const galleryListEl = document.querySelector('.gallery-list');
 const formEl = document.querySelector('form');

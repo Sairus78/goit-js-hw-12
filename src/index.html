@@ -8,7 +8,20 @@
     <link rel="stylesheet" href="./css/styles.css" />
   </head>
   <body>
-    <main></main>
+    <div class="container">
+      <form action="submit">
+        <input type="text" class="search-input" name="choiceSearch" />
+        <button class="btn">Search</button>
+      </form>
+
+      <!-- loader -->
+      <span class="loader" style="display: none"></span>
+
+      <ul class="gallery-list"></ul>
+      <button class="load-more-btn-js is-hidden" type="button">
+        Load more
+      </button>
+    </div>
 
     <script type="module" src="./main.js"></script>
   </body>
